@@ -1,0 +1,45 @@
+/* ALDEN DERF */
+
+@media only screen and (max-width: 1199px) {
+   
+
+    .instruction {
+        
+        float: none;
+        margin-top: 50px;
+        width: 480px;
+        margin-left: 0;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+                
+    }
+
+    main {
+        margin-top: 50px;
+        margin-left: 0;
+        padding-top: 20px;
+        align-items: flex-start;
+
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    
+    canvas{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    }
+
+    .instruction{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,63 @@
+/* ALDEN DERF */
+* {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1f2833;
+}
+nav {
+    background-color: #0B0c10;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav p {
+    margin: 0;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    
+
+}
+canvas{
+    border: 1px solid #000;
+    position: relative;
+}
+
+main {
+    width: 100%;
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    margin-left: 38%;
+    
+}
+.container {
+    display: flex;
+}
+
+.instruction {
+    width: 200px;
+    height: 130px;
+    margin-left: 23px;
+    border: 1px solid;
+    float: left;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    color: #b2beb5;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+.instruction h3 {
+    margin-top: 0;
+    
+}
+
